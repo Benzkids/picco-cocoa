@@ -8,78 +8,81 @@
     <style>
         body {
             margin: 0;
-            font-family: 'Prompt', sans-serif;
-            background-color: #2e1e14;
-            color: #fff;
+            font-family: "Kanit", sans-serif;
+            background-color: #3b2c1a;
+            color: #f1e6c9;
         }
-        header, section, footer {
-            padding: 40px 20px;
-            max-width: 900px;
-            margin: auto;
-        }
-        h1, h2, h3 {
-            color: #ffcc66;
-        }
-        .banner {
+        header {
             text-align: center;
+            padding: 40px 20px 10px;
         }
-        .banner img {
-            max-width: 100%;
-            border-radius: 12px;
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            color: #ffd86b;
         }
-        .features {
-            background-color: #3d2b1f;
-            border-radius: 12px;
-            padding: 20px;
-            margin: 20px 0;
+        header p {
+            font-size: 1.2em;
         }
-        .button {
+        .btn {
             display: inline-block;
-            background-color: #ffcc66;
-            color: #2e1e14;
-            padding: 12px 24px;
+            margin: 20px auto;
+            padding: 15px 30px;
+            background-color: #ffd86b;
+            color: #3b2c1a;
+            font-weight: bold;
             border-radius: 8px;
             text-decoration: none;
-            font-weight: bold;
-            margin-top: 20px;
+            font-size: 1.1em;
+        }
+        .content {
+            max-width: 700px;
+            margin: auto;
+            padding: 20px;
+        }
+        h2 {
+            color: #ffdc7a;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        img {
+            width: 100%;
+            margin: 20px 0;
+            border-radius: 10px;
         }
         footer {
             text-align: center;
-            font-size: 14px;
-            color: #aaa;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #ccc;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>PICCO COCOA</h1>
+        <p>โกโก้ 39-in-1 จากฝรั่งเศส</p>
+        <a class="btn" href="https://lin.ee/LwD1U90" target="_blank">สั่งซื้อผ่าน LINE</a>
+    </header>
+    <div class="content">
+        <h2>จุดเด่นของสินค้า</h2>
+        <ul>
+            <li>0% ไขมัน น้ำตาล และคอเลสเตอรอล</li>
+            <li>ช่วยลดความอยากจุกจิก คุมหิวได้นานถึง 8 ชม.</li>
+            <li>ดีท็อกซ์ลำไส้ ช่วยระบบขับถ่ายให้เป็นธรรมชาติ</li>
+            <li>ผิวนุ่มลื่นขึ้น ด้วยคอลลาเจนจากปลา</li>
+        </ul>
 
-<header class="banner">
-    <h1>PICCO COCOA</h1>
-    <h2>โกโก้ 39-in-1 จากฝรั่งเศส</h2>
-    <img src="https://raw.githubusercontent.com/chatgpt-th-assets/picco-cocoa/main/cover.jpeg" alt="Picco Cocoa">
-    <p><a class="button" href="https://lin.ee/LwD1U90" target="_blank">สั่งซื้อผ่าน LINE</a></p>
-</header>
-
-<section class="features">
-    <h3>จุดเด่นของสินค้า</h3>
-    <ul>
-        <li>0% ไขมัน น้ำตาล และคอเลสเตอรอล</li>
-        <li>ช่วยลดความอยากจุกจิก คุมหิวได้ยาวนานถึง 8 ชม.</li>
-        <li>ดีท็อกซ์ลำไส้ ช่วยระบบขับถ่ายให้เป็นธรรมชาติ</li>
-        <li>ผิวนุ่มลื่นขึ้น ด้วยคอลลาเจนจากปลา</li>
-    </ul>
-</section>
-
-<section>
-    <h3>ส่วนผสมคุณภาพ</h3>
-    <p>
-        พิคโคโกโก้ ส่งตรงจากฝรั่งเศส มีสารสกัดจากผัก ผลไม้ วิตามินซี และคอลลาเจนจากปลารวมกว่า 39 ชนิด ช่วยให้คุณดูแลรูปร่างและผิวพรรณในหนึ่งเดียว
-    </p>
-    <img src="https://raw.githubusercontent.com/chatgpt-th-assets/picco-cocoa/main/detail.jpeg" alt="Picco Cocoa Detail" style="width:100%; margin-top: 20px; border-radius: 12px;">
-</section>
-
-<footer>
-    © 2025 PICCO COCOA. All rights reserved.
-</footer>
-
+        <h2>ส่วนผสมคุณภาพ</h2>
+        <p>
+            พิคโคโก้โก้ ส่งตรงจากฝรั่งเศส มีสารสกัดจากผัก ผลไม้ วิตามินซี และคอลลาเจนจากปลารวมกว่า 39 ชนิด 
+            ช่วยให้คุณดูแลรูปร่างและผิวพรรณในหนึ่งเดียว
+        </p>
+        <img src="picco_site_images/img1.jpg" alt="picco cocoa 1"><img src="picco_site_images/img2.jpg" alt="picco cocoa 2"><img src="picco_site_images/img3.jpg" alt="picco cocoa 3"><img src="picco_site_images/img4.jpg" alt="picco cocoa 4"><img src="picco_site_images/img5.jpg" alt="picco cocoa 5">
+    </div>
+    <footer>
+        &copy; 2025 PICCO COCOA. All rights reserved.
+    </footer>
 </body>
 </html>
